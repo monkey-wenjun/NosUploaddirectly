@@ -3,10 +3,10 @@ import nos
 
 access_key = ""
 secret_key = ""
-end_point = "nos-eastchina1.126.net"
-bucket = "net"
-object = "test111.jpg"
-file_name = "/Users/wenjun/PycharmProjects/Test/test.jpg"
+end_point = "nos-eastchina1.126.net" #保持默认即可，不需要修改。
+bucket = ""
+object = ""
+file_name = ""
 
 client = nos.Client(access_key, secret_key, end_point=end_point)
 
